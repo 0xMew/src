@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ex1</title>
+<?php 
+$pageTitle = "Exercise 1";
+include 'header.php'; 
+?>
 
-
-</head>
 <body>
     <h3>3.1 Write PHP code to output the following message: Hello world! My name is "David"</h3>
 
@@ -62,3 +58,5 @@
 
 </body>
 </html>
+
+<?php include 'footer.php'; ?>
