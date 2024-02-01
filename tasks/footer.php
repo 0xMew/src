@@ -9,5 +9,16 @@
                 <a href="https://facebook.com" target="_blank"><img src="pictures/🦆 icon _facebook_2.png" alt="Facebook"></a>
                 <a href="https://github.com" target="_blank"><img src="pictures/🦆 icon _github_2.png" alt="GitHub"></a>
             </div>
+
+            <?php
+        $filename = "footer.php";
+
+        if(file_exists($filename))
+        {
+            echo date('F d Y H:i:s', filemtime($filename));
+        }
+
+        ?>
         </div>
-    </footer>
+
+</footer>

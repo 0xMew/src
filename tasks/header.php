@@ -25,7 +25,13 @@
                                 <a class="nav-link" href="#">ex2</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">ex3</a>
+                                <a class="nav-link" href="ex3.php">ex3</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">ex4</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">ex5</a>
                             </li>
                         </ul>
                     </div>
