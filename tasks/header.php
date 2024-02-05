@@ -33,6 +33,9 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">ex5</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="ex7.php">ex7</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
