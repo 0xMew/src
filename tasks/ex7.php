@@ -39,4 +39,7 @@
 </form>
 
 
-<?php include 'footer.php'; ?>
+<?php
+include 'read.php'; 
+include 'footer.php'; 
+?>
