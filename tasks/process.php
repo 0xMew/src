@@ -3,8 +3,8 @@
 // Check if the 'submit' button in the form was clicked
 if (isset($_POST['submit'])) {
     // Retrieve data from the form and store it in variables
-    $fname = $_POST['fname'];     // First name
-    $lname = $_POST['lname'];     // Last name
+    $first_name = $_POST['first_name'];     // First name
+    $last_name = $_POST['last_name'];     // Last name
     $city = $_POST['city'];       // City
     $groupid = $_POST['groupid']; // Group ID
 
@@ -12,8 +12,8 @@ if (isset($_POST['submit'])) {
     include 'db.php';
 
     // Define an SQL query to insert data into the 'studentsinfo' table
-    $sql = "INSERT INTO studentsinfo (fname, lname, city, groupid)
-            VALUES ('$fname', '$lname', '$city', '$groupid')";
+    $sql = "INSERT INTO studentsinfo (first_name, last_name, city, groupid)
+            VALUES ('$first_name', '$last_name', '$city', '$groupid')";
 
     // Execute the SQL query using the database connection
     if ($conn->query($sql) === TRUE) {

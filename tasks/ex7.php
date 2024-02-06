@@ -8,12 +8,12 @@
     <div class="form-group">
         <div class="row">
             <div class="col">
-                <label for="fname">First Name:</label>
-                <input type="text" class="form-control" id="fname" placeholder="Enter your first name" name="fname" required>
+                <label for="first_name">First Name:</label>
+                <input type="text" class="form-control" id="first_name" placeholder="Enter your first name" name="first_name" required>
             </div>
             <div class="col">
-                <label for="lname">Last Name:</label>
-                <input type="text" class="form-control" id="lname" placeholder="Enter your last name" name="lname" required>
+                <label for="last_name">Last Name:</label>
+                <input type="text" class="form-control" id="last_name" placeholder="Enter your last name" name="last_name" required>
             </div>
         </div>
     </div>
